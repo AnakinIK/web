@@ -1,0 +1,198 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-color: #2A3533;
+  color: #fff;
+}
+
+.logo img {
+  width: 300px; 
+}
+
+.titlee {
+  flex-grow: 1; /* Este nuevo div ocupará el espacio restante */
+  text-align: center; /* Centra el título horizontalmente */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 30px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.perfil {
+  float: left;
+  width: 250px; /* Ancho del panel aside */
+  padding: 20px;
+  background-color: #47555C  ;
+}
+
+.perfil img {
+  width: 100%; 
+  border-radius: 10%; 
+}
+
+table {
+    width: 50%; /* Ancho de la tabla */
+    border-collapse: collapse; /* Colapsar los bordes de la tabla */
+    margin: 20px auto; /* Centrar la tabla */
+}
+th, td {
+    border: 1px solid #ddd; /* Borde de las celdas */
+    padding: 8px; /* Espacio interno de las celdas */
+    text-align: left; /* Alineación del texto */
+}
+th {
+    background-color: #47555C; /* Color de fondo de las celdas de encabezado */
+}
+
+/* Estilos para la sección contenedora */
+.container {
+    display: flex; /* Utiliza el modelo de caja flexible para alinear los elementos */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan a medida que cambia el tamaño de la ventana */
+}
+
+/* Estilos para cada categoría */
+.category {
+    text-align: center; /* Alinea el texto al centro */
+    margin: 20px; /* Espacio entre cada categoría */
+}
+
+.category img {
+    width: 150px; /* Tamaño de la imagen */
+    border-radius: 50%; /* Bordes redondeados para la imagen */
+}
+
+/* Estilos para el pie de página */
+/* Estilos para el pie de página */
+footer {
+    background-color: #47555C; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+.footer-box {
+    display: flex; /* Modelo de caja flexible para alinear elementos */
+    justify-content: space-around; /* Espacio uniforme entre los elementos */
+    max-width: 600px; /* Ancho máximo del pie de página */
+    margin: 0 auto; /* Centra el cuadro de pie de página */
+    background-color: #47555C ; /* Color de fondo del cuadro */
+    padding: 20px; /* Espaciado interno del cuadro */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.contact-info p {
+    margin: 5px 0; /* Espaciado entre párrafos */
+}
+
+.social-links img {
+    width: 30px; /* Tamaño de las imágenes de las redes sociales */
+    margin: 0 5px; /* Espaciado entre las imágenes */
+}
+
+body{
+  background-color: #47555C ;
+  color: #fff;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #47555C ;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #47555C ;
+}
+
+.container2{
+  text-align: center;
+}
+
+.proceso{
+flex: 0 0 auto;
+    margin-left: 1000px;
+}
+
+.motor{
+    flex: 0 0 auto;
+    margin-left: 1000px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+.image {
+    margin: 0 10px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+
+.song-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.song {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+}
+
+.song h2 {
+    margin-top: 0;
+    color: #007BFF;
+}
+
+.song p {
+    white-space: pre-wrap;
+}
